@@ -1,5 +1,5 @@
 <script setup>
-import TaoNav from '@tau/nav'
+import TaoNav from '@t4u/nav'
 </script>
 
 <template>

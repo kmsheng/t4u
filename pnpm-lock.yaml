@@ -23,9 +23,9 @@ importers:
 
   apps/web:
     specifiers:
-      '@tau/nav': '*'
+      '@t4u/nav': '*'
     dependencies:
-      '@tau/nav': link:../../packages/nav
+      '@t4u/nav': link:../../packages/nav
 
   packages/nav:
     specifiers: {}
