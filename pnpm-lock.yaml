@@ -1,24 +1,34 @@
 lockfileVersion: 5.3
 
-specifiers:
-  '@vitejs/plugin-vue': ^2.2.0
-  autoprefixer: ^10.4.4
-  postcss: ^8.4.12
-  tailwindcss: ^3.0.23
-  turbo: ^1.1.10
-  vite: ^2.8.0
-  vue: ^3.2.25
+importers:
 
-dependencies:
-  vue: 3.2.31
+  .:
+    specifiers:
+      '@vitejs/plugin-vue': ^2.2.0
+      autoprefixer: ^10.4.4
+      postcss: ^8.4.12
+      tailwindcss: ^3.0.23
+      turbo: ^1.1.10
+      vite: ^2.8.0
+      vue: ^3.2.25
+    dependencies:
+      vue: 3.2.31
+    devDependencies:
+      '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
+      autoprefixer: 10.4.4_postcss@8.4.12
+      postcss: 8.4.12
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
+      turbo: 1.1.10
+      vite: 2.8.6
 
-devDependencies:
-  '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
-  autoprefixer: 10.4.4_postcss@8.4.12
-  postcss: 8.4.12
-  tailwindcss: 3.0.23_autoprefixer@10.4.4
-  turbo: 1.1.10
-  vite: 2.8.6
+  apps/web:
+    specifiers:
+      '@tau/stuff': '*'
+    dependencies:
+      '@tau/stuff': link:../../packages/stuff
+
+  packages/stuff:
+    specifiers: {}
 
 packages:
 

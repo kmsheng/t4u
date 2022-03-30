@@ -1,13 +1,11 @@
 {
-  "name": "@tau/web",
+  "name": "@tau/stuff",
   "private": true,
   "version": "0.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite --port 3000",
+    "dev": "vite --port 3001",
     "build": "vite build",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "@tau/stuff": "*"
   }
 }

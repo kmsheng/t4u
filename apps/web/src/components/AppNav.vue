@@ -1,9 +1,9 @@
 <script setup>
-import AppNav from '@/shared/AppNav.vue'
+import { TaoNav } from '@tau/stuff'
 </script>
 
 <template>
-  <app-nav>
+  <tao-nav>
     <template #logo>
       <div>Tau</div>
     </template>
@@ -12,7 +12,7 @@ import AppNav from '@/shared/AppNav.vue'
     <a href="">link1</a>
     <a href="">link2</a>
     <a href="">link3</a>
-  </app-nav>
+  </tao-nav>
 </template>
 
 <style scoped>
