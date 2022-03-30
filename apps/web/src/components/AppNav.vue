@@ -1,5 +1,5 @@
 <script setup>
-import TaoNav from '@t4u/nav'
+import { TaoNav } from '@t4u/ui'
 </script>
 
 <template>

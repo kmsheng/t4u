@@ -8,6 +8,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@t4u/nav": "*"
+    "@t4u/ui": "*"
   }
 }

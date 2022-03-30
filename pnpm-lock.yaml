@@ -23,11 +23,11 @@ importers:
 
   apps/web:
     specifiers:
-      '@t4u/nav': '*'
+      '@t4u/ui': '*'
     dependencies:
-      '@t4u/nav': link:../../packages/nav
+      '@t4u/ui': link:../../packages/ui
 
-  packages/nav:
+  packages/ui:
     specifiers: {}
 
 packages:
