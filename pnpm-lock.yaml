@@ -23,11 +23,11 @@ importers:
 
   apps/web:
     specifiers:
-      '@tau/stuff': '*'
+      '@tau/nav': '*'
     dependencies:
-      '@tau/stuff': link:../../packages/stuff
+      '@tau/nav': link:../../packages/nav
 
-  packages/stuff:
+  packages/nav:
     specifiers: {}
 
 packages:
