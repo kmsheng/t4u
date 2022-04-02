@@ -8,5 +8,8 @@
     "dev": "vite build --watch",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.49.11"
   }
 }
