@@ -1,12 +1,5 @@
+@import '@t4u/ui/tailwind.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .icon-burger {
-    width: 48px;
-    height: 48px;
-    display: block;
-    background: red;
-  }
-}

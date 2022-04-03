@@ -1,5 +1,5 @@
-import IconBurger from './IconBurger.vue'
+import TBurger from './burger/Burger.vue'
 
 export {
-  IconBurger
+  TBurger
 }

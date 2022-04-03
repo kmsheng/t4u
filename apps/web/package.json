@@ -11,6 +11,7 @@
     "@t4u/ui": "*"
   },
   "devDependencies": {
-    "postcss-import": "^14.1.0"
+    "postcss-import": "^14.1.0",
+    "postcss-mixins": "^9.0.2"
   }
 }

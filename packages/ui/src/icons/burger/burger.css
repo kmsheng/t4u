@@ -1,0 +1,33 @@
+@layer components {
+  .icon-burger {
+    @apply relative inline-block w-12 h-12;
+  }
+  .icon-burger__line,
+  .icon-burger__line:before,
+  .icon-burger__line:after {
+    @apply absolute block w-6 h-0.5 transition-all duration-300;
+    background: var(--text-color);
+  }
+  .icon-burger__line:before,
+  .icon-burger__line:after {
+    @apply inset-x-0 content-[''];
+  }
+  .icon-burger__line {
+    @apply mx-auto inset-x-0 top-4;
+  }
+  .icon-burger__line:before {
+    @apply top-2;
+  }
+  .icon-burger__line:after {
+    @apply top-4;
+  }
+  .icon-burger.icon-burger--cross .icon-burger__line {
+    @apply translate-y-2 rotate-45;
+  }
+  .icon-burger.icon-burger--cross .icon-burger__line:before {
+    @apply opacity-0;
+  }
+  .icon-burger.icon-burger--cross .icon-burger__line:after {
+    @apply -translate-y-4 -rotate-90;
+  }
+}

@@ -1,5 +1,5 @@
-import TaoNav from './TaoNav.vue'
+import TNav from './nav/Nav.vue'
 
 export {
-  TaoNav
+  TNav
 }
