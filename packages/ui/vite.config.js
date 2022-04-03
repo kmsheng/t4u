@@ -11,6 +11,7 @@ export default defineConfig({
   },
   plugins: [vue()],
   build: {
+    cssCodeSplit: false,
     lib: {
       entry: path.resolve(__dirname, 'index.js'),
       name: 'T4uUi',

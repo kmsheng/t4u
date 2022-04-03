@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "@t4u/ui": "*"
+  },
+  "devDependencies": {
+    "postcss-import": "^14.1.0"
   }
 }

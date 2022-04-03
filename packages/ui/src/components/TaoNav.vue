@@ -1,10 +1,14 @@
 <script setup>
+import IconBurger from '@/icons/IconBurger.vue'
 </script>
 
 <template>
-  <nav class="flex justify-between">
-    <slot />
-  </nav>
+  <div>
+    <nav class="flex justify-between">
+      <icon-burger />
+      <slot />
+    </nav>
+  </div>
 </template>
 
 <style scoped>
