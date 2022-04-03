@@ -5,7 +5,22 @@ module.exports = {
     './src/**/*.{vue,js}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+
+        'dark-text-light': '#a2a3a9',
+        'dark-text': '#dddddd',
+        'dark-text-strong': '#ffffff',
+
+        'dark-bg': '#070b1f',
+        'dark-card': '#181c2f',
+        'dark-popup': '#2b2e3c',
+
+        'light-bg': '#ffffff',
+        'light-card': '#eeeeee',
+        'light-popup': '#eeeeee'
+      }
+    }
   },
   plugins: []
 }

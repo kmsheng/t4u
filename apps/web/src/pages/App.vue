@@ -3,7 +3,7 @@ import AppHeader from '@/components/AppHeader.vue'
 </script>
 
 <template>
-  <div class="bg-white dark:bg-slate-900 text-black dark:text-white">
+  <div class="bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text">
     <app-header />
   </div>
 </template>
