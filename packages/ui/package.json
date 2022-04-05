@@ -7,9 +7,14 @@
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "@t4u/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.5.0"
   }
 }

@@ -3,7 +3,7 @@ import TNavLink from '@/components/navLink/NavLink.vue'
 </script>
 
 <template>
-  <router-link custom v-slot="{ navigate, href, route }">
+  <router-link custom v-slot="{ navigate, href }">
     <t-nav-link :href="href" @click="navigate">
       <slot />
     </t-nav-link>
