@@ -15,7 +15,6 @@ const open = ref(false)
                    :active="open"
                    @click="open = (! open)" />
     <teleport to="body">
-      <div>ok</div>
     </teleport>
   </div>
 </template>
