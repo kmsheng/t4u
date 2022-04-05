@@ -1,0 +1,5 @@
+@layer components {
+  .nav-menu-link {
+    @apply block p-3;
+  }
+}

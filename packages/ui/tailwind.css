@@ -3,4 +3,5 @@
 @import './src/styles/typography.css';
 @import './src/components/navLink/navLink.css';
 @import './src/components/navMenu/navMenu.css';
+@import './src/components/navMenuLink/navMenuLink.css';
 @import './src/icons/burger/burger.css';
