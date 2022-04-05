@@ -1,0 +1,8 @@
+@layer components {
+  .nav-menu {
+    @apply bg text;
+  }
+  .nav-menu__content {
+    @apply max-w-sm mx-auto pb-4;
+  }
+}
