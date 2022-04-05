@@ -5,7 +5,7 @@ import TIconBurger from '@/icons/burger/Burger.vue'
 
 const root = ref(null)
 const open = ref(false)
-const menuStyle = computed(() => ({ top: px(root.value) }))
+const menuStyle = computed(() => ({ top: px(root.value.offsetHeight) }))
 </script>
 
 <template>

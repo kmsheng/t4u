@@ -2,4 +2,5 @@
 @import './src/styles/backgrounds.css';
 @import './src/styles/typography.css';
 @import './src/components/navLink/navLink.css';
+@import './src/components/navMenu/navMenu.css';
 @import './src/icons/burger/burger.css';
