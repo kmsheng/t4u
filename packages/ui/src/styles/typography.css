@@ -1,0 +1,17 @@
+@layer components {
+  .bg {
+    @apply bg-white dark:bg-haiti;
+  }
+  .bg-card {
+    @apply bg-gallery dark:bg-mirage;
+  }
+  .bg-popup {
+    @apply bg-gallery dark:bg-charade;
+  }
+  .text {
+    @apply text-white dark:text-alto;
+  }
+  .text-primary {
+    @apply text-havelock-blue dark:text-malibu;
+  }
+}
