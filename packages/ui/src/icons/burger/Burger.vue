@@ -6,10 +6,10 @@ const props = defineProps({
     type: String,
     default: 'span'
   },
-  opened: Boolean
+  active: Boolean
 })
 
-const classname = computed(() => props.opened ? 'icon-burger--cross': '')
+const classname = computed(() => props.active ? 'icon-burger--active': '')
 </script>
 
 <template>

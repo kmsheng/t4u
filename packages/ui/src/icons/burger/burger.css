@@ -21,13 +21,13 @@
   .icon-burger__line:after {
     @apply top-4;
   }
-  .icon-burger.icon-burger--cross .icon-burger__line {
+  .icon-burger.icon-burger--active .icon-burger__line {
     @apply translate-y-2 rotate-45;
   }
-  .icon-burger.icon-burger--cross .icon-burger__line:before {
+  .icon-burger.icon-burger--active .icon-burger__line:before {
     @apply opacity-0;
   }
-  .icon-burger.icon-burger--cross .icon-burger__line:after {
+  .icon-burger.icon-burger--active .icon-burger__line:after {
     @apply -translate-y-4 -rotate-90;
   }
 }
