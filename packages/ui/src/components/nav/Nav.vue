@@ -1,18 +1,16 @@
 <script setup>
 import { computed, ref } from 'vue'
+import { px } from '@t4u/utils'
 import TIconBurger from '@/icons/burger/Burger.vue'
 
-const navRef = ref(null)
+const root = ref(null)
 const open = ref(false)
-const menuStyle = computed(() => {
-  return {
-  }
-})
+const menuStyle = computed(() => ({ top: px(root.value) }))
 </script>
 
 <template>
-  <div>
-    <nav ref="navRef" class="hidden sm:block sm:flex sm:justify-between">
+  <div ref="root">
+    <nav class="hidden sm:block sm:flex sm:justify-between">
       <slot />
     </nav>
     <t-icon-burger class="block sm:hidden"
