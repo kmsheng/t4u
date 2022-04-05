@@ -35,7 +35,10 @@ importers:
       postcss-nested: 5.0.6_postcss@8.4.12
 
   packages/ui:
-    specifiers: {}
+    specifiers:
+      '@t4u/shared': workspace:^1.0.0
+    dependencies:
+      '@t4u/shared': link:../shared
 
 packages:
 

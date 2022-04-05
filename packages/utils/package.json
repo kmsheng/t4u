@@ -1,9 +1,9 @@
 {
-  "name": "@t4u/shared",
+  "name": "@t4u/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/t4u-shared.umd.js",
-  "module": "./dist/t4u-shared.es.js",
+  "main": "./dist/t4u-utils.umd.js",
+  "module": "./dist/t4u-utils.es.js",
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
