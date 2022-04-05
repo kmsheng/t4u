@@ -1,6 +1,6 @@
 <script setup>
 import { TNav, TNavLink, TNavRouterLink, TIconGithub,
-  TNavMenu, TNavMenuLink, TNavMenuRouterLink } from '@t4u/ui'
+  TNavMenu, TNavMenuRouterLink } from '@t4u/ui'
 </script>
 
 <template>
