@@ -5,5 +5,6 @@ import AppHeader from '@/components/AppHeader.vue'
 <template>
   <div class="bg text">
     <app-header />
+    <router-view />
   </div>
 </template>

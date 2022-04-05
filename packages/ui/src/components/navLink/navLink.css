@@ -1,6 +1,5 @@
 @layer components {
   .nav-link {
-    @apply px-4 py-3 transition-colors duration-300
-      hover:text-light-text-primary dark:hover:text-dark-text-primary;
+    @apply px-4 py-3 transition-colors duration-300 hover:text-primary;
   }
 }

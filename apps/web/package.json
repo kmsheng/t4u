@@ -8,7 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@t4u/ui": "*"
+    "@t4u/ui": "*",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "postcss-import": "^14.1.0",

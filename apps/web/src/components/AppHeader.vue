@@ -4,7 +4,7 @@ import { TNav, TNavLink, TIconGithub } from '@t4u/ui'
 
 <template>
   <div class="flex justify-between items-center px-3">
-    <a class="p-3 font-bold">Tau</a>
+    <router-link class="p-3 font-bold" to="/">Tau</router-link>
     <t-nav>
       <t-nav-link href="/components">Components</t-nav-link>
       <t-nav-link href="/utils">Utils</t-nav-link>
