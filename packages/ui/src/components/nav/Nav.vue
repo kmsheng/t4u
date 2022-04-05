@@ -18,7 +18,7 @@ const menuStyle = computed(() => ({ top: px(root.value.offsetHeight) }))
                    :active="open"
                    @click="open = (! open)" />
     <teleport to="body">
-      <div v-if="open" class="fixed left-0 right-0" :style="menuStyle">
+      <div v-if="open" class="fixed left-0 right-0 sm:hidden" :style="menuStyle">
         <slot name="menu" />
       </div>
     </teleport>

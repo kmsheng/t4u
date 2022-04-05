@@ -6,6 +6,7 @@ import TNavRouterLink from './navRouterLink/NavRouterLink.vue'
 
 import TNavMenu from './navMenu/NavMenu.vue'
 import TNavMenuLink from './navMenuLink/NavMenuLink.vue'
+import TNavMenuRouterLink from './navMenuRouterLink/NavMenuRouterLink.vue'
 
 export {
   TBackdrop,
@@ -15,5 +16,6 @@ export {
   TNavRouterLink,
 
   TNavMenu,
-  TNavMenuLink
+  TNavMenuLink,
+  TNavMenuRouterLink
 }

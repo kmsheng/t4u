@@ -1,5 +1,6 @@
 <script setup>
-import { TNav, TNavLink, TNavRouterLink, TIconGithub, TNavMenu } from '@t4u/ui'
+import { TNav, TNavLink, TNavRouterLink, TIconGithub,
+  TNavMenu, TNavMenuLink, TNavMenuRouterLink } from '@t4u/ui'
 </script>
 
 <template>
@@ -13,9 +14,8 @@ import { TNav, TNavLink, TNavRouterLink, TIconGithub, TNavMenu } from '@t4u/ui'
       </t-nav-link>
       <template #menu>
         <t-nav-menu>
-          <a class="block p-3" :href="href" @click="navigate">link1</a>
-          <a class="block p-3" href="/link2">link2</a>
-          <a class="block p-3" href="/link3">link3</a>
+          <t-nav-menu-router-link to="/components">Components</t-nav-menu-router-link>
+          <t-nav-menu-router-link to="/utils">Utils</t-nav-menu-router-link>
         </t-nav-menu>
       </template>
     </t-nav>
