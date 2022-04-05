@@ -26,19 +26,20 @@ importers:
       '@t4u/ui': '*'
       postcss-import: ^14.1.0
       postcss-mixins: ^9.0.2
-      postcss-nested: ^5.0.6
     dependencies:
       '@t4u/ui': link:../../packages/ui
     devDependencies:
       postcss-import: 14.1.0_postcss@8.4.12
       postcss-mixins: 9.0.2_postcss@8.4.12
-      postcss-nested: 5.0.6_postcss@8.4.12
 
   packages/ui:
     specifiers:
-      '@t4u/shared': workspace:^1.0.0
+      '@t4u/utils': workspace:^1.0.0
     dependencies:
-      '@t4u/shared': link:../shared
+      '@t4u/utils': link:../utils
+
+  packages/utils:
+    specifiers: {}
 
 packages:
 
