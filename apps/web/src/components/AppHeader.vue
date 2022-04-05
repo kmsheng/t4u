@@ -1,14 +1,16 @@
 <script setup>
-import { TNav, TNavLink } from '@t4u/ui'
+import { TNav, TNavLink, TIconGithub } from '@t4u/ui'
 </script>
 
 <template>
   <div class="flex justify-between items-center px-3">
     <a class="p-3 font-bold">Tau</a>
     <t-nav>
-      <t-nav-link href="/link1">link1</t-nav-link>
-      <t-nav-link href="/link2">link2</t-nav-link>
-      <t-nav-link href="/link3">link3</t-nav-link>
+      <t-nav-link href="/components">Components</t-nav-link>
+      <t-nav-link href="/utils">Utils</t-nav-link>
+      <t-nav-link href="https://github.com" target="_blank">
+        <t-icon-github class="w-5 h-5 fill-current" />
+      </t-nav-link>
       <template #menu>
         <div>
           <a class="p-3" href="/link1">link1</a>
