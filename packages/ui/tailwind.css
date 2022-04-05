@@ -1,4 +1,5 @@
 @import './src/styles/variables.css';
 @import './src/styles/backgrounds.css';
 @import './src/styles/typography.css';
+@import './src/components/navLink/navLink.css';
 @import './src/icons/burger/burger.css';
