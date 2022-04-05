@@ -6,6 +6,7 @@ module.exports = {
   rules: {
     'vue/multi-word-component-names': 'off',
     'vue/first-attribute-linebreak': 'off',
-    'vue/html-closing-bracket-newline': 'off'
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/max-attributes-per-line': 'off'
   }
 }

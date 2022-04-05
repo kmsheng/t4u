@@ -13,7 +13,7 @@ const classname = computed(() => props.active ? 'icon-burger--active': '')
 </script>
 
 <template>
-  <component class="icon-burger" :class="classname" :is="tag">
+  <component :is="tag" class="icon-burger" :class="classname">
     <span class="icon-burger__line" />
   </component>
 </template>
