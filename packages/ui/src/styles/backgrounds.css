@@ -1,0 +1,11 @@
+@layer components {
+  .bg {
+    @apply bg-white dark:bg-haiti;
+  }
+  .bg-card {
+    @apply bg-gallery dark:bg-mirage;
+  }
+  .bg-popup {
+    @apply bg-gallery dark:bg-charade;
+  }
+}
